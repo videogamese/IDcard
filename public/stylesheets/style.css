@@ -8,6 +8,9 @@ label, input {
 input, select {
   margin-bottom: 16px;
 }
+.info-row, .info-container {
+  display: flex;
+}
 .info-row{
   flex: 1;
 }
@@ -46,12 +49,16 @@ input, select {
 }
 .card.premium{
   border: 1px solid #d7ac57;
+  color: #d7ac57;
+
 }
 .card.standard{
   border: 1px solid #999;
+  color: #999;
 }
 .card.bronze{
   border: 1px solid #714740;
+  color: #714740;
 }
 a {
   color: #00B7FF;
